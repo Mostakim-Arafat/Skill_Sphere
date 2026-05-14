@@ -1,18 +1,17 @@
-Readme.md: Include a README file with the project name, purpose, live URL, key features, and any npm packages you have used.
 
-### Skillsphere
+# Skillsphere
 
 ---
-# A ONlINE Learing platform
+### A ONlINE Learing platform
 ---
-# lIVE URL
+### lIVE URL
 ```
 http://localhost:3000/
 
 ```
-# KEY FEATURES
+### KEY FEATURES
 
-# NPM packages
+### NPM packages
 
 
 
