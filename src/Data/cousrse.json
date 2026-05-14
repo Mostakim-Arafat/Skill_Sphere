@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Web Development Bootcamp",
+    "instructor": "John Doe",
+    "duration": "20 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Learn full-stack web development from scratch using modern tools and frameworks.",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
+    "category": "Development"
+  },
+ {
+    "id": 2,
+    "title": "Advanced UI/UX Design Masterclass",
+    "instructor": "Jane Smith",
+    "duration": "15 hours",
+    "rating": 4.9,
+    "level": "Intermediate",
+    "description": "Master Figma and user psychology to create stunning, high-converting interfaces.",
+    "image": "https://cdn.pixabay.com/photo/2016/11/23/14/45/coding-1853305_1280.jpg",
+    "category": "Design"
+  },
+  {
+    "id": 3,
+    "title": "Python for Data Science & AI",
+    "instructor": "Dr. Alan Turing",
+    "duration": "35 hours",
+    "rating": 4.7,
+    "level": "Advanced",
+    "description": "Deep dive into NumPy, Pandas, and Scikit-Learn to solve real-world data problems.",
+    "image": "https://cdn.pixabay.com/photo/2018/05/08/08/44/artificial-intelligence-3382507_1280.jpg",
+    "category": "Data Science"
+  },
+  {
+    "id": 4,
+    "title": "Digital Marketing Strategy 2026",
+    "instructor": "Sarah Jenkins",
+    "duration": "12 hours",
+    "rating": 4.6,
+    "level": "Beginner",
+    "description": "Covering SEO, Social Media Ads, and Content Strategy for modern businesses.",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
+    "category": "Marketing"
+  },
+  {
+    "id": 5,
+    "title": "Cybersecurity Fundamentals",
+    "instructor": "Marcus Vane",
+    "duration": "25 hours",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "description": "Protect networks and data from threats with hands-on ethical hacking techniques.",
+    "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80",
+    "category": "IT & Software"
+  },
+  {
+    "id": 6,
+    "title": "Financial Analysis and Modeling",
+    "instructor": "Robert Sterling",
+    "duration": "18 hours",
+    "rating": 4.5,
+    "level": "Advanced",
+    "description": "Learn to build professional financial models and perform valuation analysis.",
+    "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=800&q=80",
+    "category": "Business"
+  }
+]
