@@ -11,8 +11,8 @@ const Course = () => {
 
     return (
         <div>
-            <div className='flex justify-around'>
-                <div>Courses</div>
+            <div className='flex justify-center items-center my-5'>
+                
                 <div>
                     <label className="input">
                         <svg className="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -31,7 +31,7 @@ const Course = () => {
                     </label>
                 </div>
             </div>
-            <div className='grid grid-cols-3'>
+            <div className='grid grid-cols-3 gap-3 container mx-auto'>
                 {filtered.length > 0 ?
                     filtered.map(data => <Course_card data={data} key={data.id}></Course_card>) :
                     Data.map(data => <Course_card data={data} key={data.id}></Course_card>)}

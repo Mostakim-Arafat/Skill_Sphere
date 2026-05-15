@@ -1,6 +1,8 @@
 'use client'
 import Image from "next/image";
 import Link from "next/link";
+import { FaStar } from "react-icons/fa";
+import { LuAlarmClock } from "react-icons/lu";
 
 const Course_card = ({ data }) => {
     const {
@@ -10,9 +12,8 @@ const Course_card = ({ data }) => {
         duration,
         rating,
         level,
-        description,
         image,
-        category,
+       
     } = data
     return (
         <div className="card bg-base-100 w-96 shadow-sm">
@@ -26,11 +27,10 @@ const Course_card = ({ data }) => {
             </figure>
             <div className="card-body items-center text-center">
                 <h2 className="card-title">{title}</h2>
-                <p>{description}</p>
                 <p>{level}</p>
-                <div className="flex justify-between items-center">
-                    <div><p>{rating}</p></div>
-                    <div><p>{duration}</p></div>
+                <div className="flex justify-between items-center gap-5">
+                    <div className="flex justify-center items-center gap-2"><FaStar></FaStar><p>{rating}</p></div>
+                    <div className="flex justify-center items-center gap-2"><LuAlarmClock></LuAlarmClock><p>{duration}</p></div>
                 </div>
                 <div className="card-actions">
                     <Link href={`/Page/Details/${id}`} className="btn btn-primary">Details</Link>
