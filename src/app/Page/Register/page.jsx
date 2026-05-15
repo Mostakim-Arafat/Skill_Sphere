@@ -17,11 +17,12 @@ const Register = () => {
             password: data.password, // required
             image: data.photo,
         });
+        
         if (error) {
             toast.error(error.message)
         } else {
-
             toast.success('Register successfully')
+            setTimeout
             router.push('/Page/Login')
         }
         console.log(res, error)
