@@ -3,13 +3,11 @@ import React from 'react';
 const Footer = () => {
     return (
         <div>
-            <footer className="footer sm:footer-horizontal footer-center bg-base-300 text-base-content p-4 mb-10">
+            <footer className="footer sm:footer-horizontal bg-base-300 text-base-content p-10 mt-3">
                 <nav>
-                    <h6 className="footer-title">Services</h6>
-                    <a className="link link-hover">Branding</a>
-                    <a className="link link-hover">Design</a>
-                    <a className="link link-hover">Marketing</a>
-                    <a className="link link-hover">Advertisement</a>
+                    <h6 className="footer-title">Contact Info</h6>
+                    <a className="link link-hover">Whatsapp : (55-22-44)</a>
+                    <a className="link link-hover">email : no-reply@gmail.com</a>
                 </nav>
                 <nav>
                     <h6 className="footer-title">Company</h6>
@@ -57,7 +55,7 @@ const Footer = () => {
                     </div>
                 </nav>
             </footer>
-            <br></br>
+        
             <footer className="footer sm:footer-horizontal footer-center bg-base-300 text-base-content p-4">
                 <aside>
                     <p>Copyright © {new Date().getFullYear()} - All right reserved by SkillSphere</p>

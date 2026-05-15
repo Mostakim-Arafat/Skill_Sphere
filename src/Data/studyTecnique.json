@@ -1,0 +1,29 @@
+[
+  {
+    "id": "card_01",
+    "icon": "brain_with_lightbulb",
+    "image_url": "https://img.magnific.com/premium-vector/human-avatar-with-gear-brain-icon_98396-112030.jpg",
+    "title": "ACTIVE RECALL",
+    "difficulty_level": "BEGINNER",
+    "description": "Test yourself frequently without looking at notes. Strengthens memory.",
+    "button_text": "Learn More"
+  },
+  {
+    "id": "card_02",
+    "icon": "teacher_at_whiteboard",
+    "image_url": "https://thumbs.dreamstime.com/b/teacher-man-pointing-finger-warning-teaching-pose-teacher-man-pointing-finger-warning-teaching-pose-flat-vector-287898222.jpg",
+    "title": "THE FEYNMAN TECHNIQUE",
+    "difficulty_level": "INTERMEDIATE",
+    "description": "Explain concepts simply, as if teaching a child. Identify gaps in your understanding.",
+    "button_text": "Learn More"
+  },
+  {
+    "id": "card_03",
+    "icon": "calendar_with_clock",
+    "image_url" : "https://img.magnific.com/premium-vector/calendar-timer-time-management-great-design-any-purposes-business-concept-schedule_194782-972.jpg",
+    "title": "SPACED REPETITION",
+    "difficulty_level": "ADVANCED",
+    "description": "Review information at increasing intervals over time. Prevents forgetting.",
+    "button_text": "Learn More"
+  }
+]

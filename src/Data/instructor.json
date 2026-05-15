@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Sarah Jenkins",
+    "course": "Advanced React & Design Patterns",
+    "experience": "12 Years",
+    "bio": "Former lead engineer at Tech Giant, now dedicated to teaching scalable web solutions.",
+    "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=400"
+  },
+  {
+    "id": 2,
+    "name": "Marcus Thorne",
+    "course": "Mastering Python for Data Science",
+    "experience": "8 Years",
+    "bio": "Data Scientist with a passion for simplifying complex statistical models for beginners.",
+    "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=400"
+  },
+  {
+    "id": 3,
+    "name": "Elena Rodriguez",
+    "course": "UX/UI Mastery: From Wireframe to Prototype",
+    "experience": "10 Years",
+    "bio": "Award-winning designer focused on creating intuitive digital experiences and accessible interfaces.",
+    "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=400"
+  }
+]

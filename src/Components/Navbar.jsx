@@ -37,13 +37,19 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
+                <div tabIndex={0} role="button">
                     <div className="w-10 rounded-full">
-                        <Image
-                            alt={user ? name : 'noImage'}
-                            src={user ? image : "https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"}
+                        {
+                            user ? 
+                             <Image
+                            alt={name}  
+                            src={image}
                             width={45}
                             height={45} />
+                            :
+                            ''
+                        }
+                       
                     </div>
                 </div>
                 { isPending ?
