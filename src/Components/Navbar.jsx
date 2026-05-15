@@ -2,9 +2,14 @@
 
 import Link from "next/link";
 import Image from "next/image";
-
+import { authClient } from "@/lib/auth-client";
 
 const Navbar = () => {
+    const { data: session , isPending} = authClient.useSession()
+    const user = session?.user
+    const name = session?.user?.name
+    const image = session?.user?.image
+    console.log(user)
     const menu = <>
         <li><Link href={'/Page/HomePage'}>Home</Link> </li>
         <li><Link href={'/Page/Course'}>Courses</Link> </li>
@@ -20,7 +25,7 @@ const Navbar = () => {
                     <ul
                         tabIndex="-1"
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                            {menu}
+                        {menu}
 
                     </ul>
                 </div>
@@ -28,20 +33,28 @@ const Navbar = () => {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                   {menu}
+                    {menu}
                 </ul>
             </div>
             <div className="navbar-end">
                 <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
                     <div className="w-10 rounded-full">
                         <Image
-                            alt="Tailwind CSS Navbar component"
-                            src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" 
+                            alt={user ? name : 'noImage'}
+                            src={user ? image : "https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"}
                             width={45}
-                            height={45}/>
+                            height={45} />
                     </div>
                 </div>
-                <a className="btn">Login</a>
+                { isPending ?
+                      <span className="loading loading-bars loading-lg"></span>
+                      :
+                    user ?
+                        <Link href={'/Page/Login'} onClick={async () => await authClient.signOut()} className="btn">Logout</Link>
+                        :
+                        <Link href={'/Page/Login'} className="btn">Login</Link>
+                }
+
             </div>
         </div>
     );
