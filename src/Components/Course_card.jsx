@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Course_card = ({ data }) => {
-    console.log(data)
     const {
         id,
         title,
